@@ -1,0 +1,53 @@
+/* Print media */
+@media print {
+    /* Body */
+    body {
+        font-size: 12pt;
+    }
+
+    /* Container */
+    .container {
+        width: 100%;
+        padding: 0;
+        margin: 0;
+    }
+
+    /* Hide elements */
+    .no-print {
+        display: none;
+    }
+
+    /* Receipt styling */
+    .receipt {
+        width: 100%;
+        max-width: 600px;
+        margin: 0 auto;
+        padding: 10px;
+        border: 1px solid #000;
+        border-radius: 5px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+
+    /* Receipt headings */
+    .receipt h1, .receipt h5 {
+        text-align: center;
+        margin: 0;
+    }
+
+    /* Table styling */
+    .receipt .table {
+        border: none;
+    }
+
+    /* Table cells */
+    .receipt .table td {
+        border-bottom: 1px solid #000;
+    }
+
+    /* Table headers */
+    .receipt .table th {
+        border-bottom: 1px solid #000;
+        text-align: left;
+        padding: 8px;
+    }
+}

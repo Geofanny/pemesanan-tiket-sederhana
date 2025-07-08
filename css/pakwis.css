@@ -1,0 +1,103 @@
+/* Gallery */
+.gallery {
+    margin: 0px;
+    padding: 0px;
+}
+
+/* Row */
+.row {
+    padding: 0;
+    margin: 0;
+}
+
+/* Banner */
+#banner-container .list-img {
+    background-image: url('../img/banner_3.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 400px;
+    padding: 50px;
+    box-sizing: border-box;
+}
+
+/* Navbar */
+.navbar {
+    color: white !important;
+}
+
+/* Image */
+.img-ket {
+    object-fit: cover;
+    height: 200px;
+}
+
+/* Toggler */
+.navbar-toggler {
+    background-color: white !important;
+}
+
+/* Hover link */
+.nav-link:hover {
+    color: #d3d3d3 !important;
+}
+
+/* Active link */
+.active {
+    color: #d3d3d3 !important;
+}
+
+/* Profile */
+.profile .img-1 {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    margin: 0;
+}
+
+/* Profile container */
+.profile {
+    background-color: #f8f9fa;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+
+/* Description */
+.descript {
+    padding-right: 40px;
+}
+
+/* Image container */
+.img-desc {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Image styling */
+.img-1 {
+    max-width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Footer link */
+.list-unstyled a:hover {
+    color: #d3d3d3 !important;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+/* Social media icon */
+footer .contact .sosmed .icon:hover {
+    color: #d3d3d3 !important;
+}
+
+/* Media query */
+@media (max-width: 1199px) {
+    #gal-com {
+        display: none;
+    }
+}
